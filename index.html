@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content ="width=device-width , initial scale = 1.0">
+    <title>Video Game Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="2024.html">2024</a></li>
+                    <li><a href="2025.html">2025</a></li>
+                    <li><a href="TV.html">TV Shows</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <div class="text-box"> 
+            <h2>Video Game Library</h2>
+        </div>
+    </section>
+    <div class="favourites">
+        <br>
+        <h1>Favourites...</h1>
+    </div>
+    
+
+
+<!----------------------->
+
+
+
+
+<section class="items">
+
+
+    <div class="row">
+
+
+        
+        <div class="album-col">
+            <div>
+                <img src="images/Favourites/1.jpg">
+                <div class="layer">
+                </div>
+                <h3>Red Dead Redemption 2 (2018)</h3>
+            </div>  
+        </div>
+
+        <div class="album-col">
+            <div>
+                <img src="images/Favourites/2.jpg">
+                <div class="layer">
+                </div>
+                <h3>Cyberpunk 2077 (2020)</h3>
+            </div>  
+        </div>
+
+        <div class="album-col">
+            <div>
+                <img src="images/Favourites/3.jpeg">
+                <div class="layer">
+                </div>
+                <h3>Baldur's Gate 3 (2023) [Around 80 hour playthrough]</h3>
+            </div>  
+        </div>
+
+        <div class="album-col">
+            <div>
+                <img src="images/Favourites/4.jpeg">
+                <div class="layer">
+                </div>
+                <h3>Witcher 3 (2015) [Heart of Stone + Blood and Wine]</h3>
+            </div> 
+        </div>    
+
+        <div class="album-col">
+            <div>
+                <img src="images/Favourites/5.png">
+                <div class="layer">
+                </div>
+                <h3>GTA V (2013)</h3>
+            </div>  
+        </div>
+
+        <div class="album-col">
+            <div>
+                <img src="images/Favourites/6.jpg">
+                <div class="layer">
+                </div>
+                <h3>God Of War (2018)</h3>
+            </div>  
+        </div>
+
+        <div class="album-col">
+            <div>
+                <img src="images/Favourites/7.png">
+                <div class="layer">
+                </div>
+                <h3>Assassin's Creed Odyssey (2018)</h3>
+            </div>  
+        </div>
+
+       	<div class="album-col">
+            <div>
+                <img src="images/Favourites/8.jpg">
+                <div class="layer">
+                </div>
+                <h3>Elden Ring & Shadow of the ErdTree (2022)</h3>
+            </div>  
+        </div>
+
+        <div class="album-col">
+            <div>
+                <img src="images/Favourites/9.jpg">
+                <div class="layer">
+                </div>
+                <h3>Ghost of Tsushima - Director's cut(2024)</h3>
+            </div>  
+        </div>
+
+        <div class="album-col">
+            <div>
+                <img src="images/Favourites/10.jpg">
+                <div class="layer">
+                </div>
+                <h3>Sekiro - Shadows die twice(2019)</h3>
+            </div>  
+        </div>
+
+	<div class="album-col">
+            <div>
+                <img src="images/Favourites/11.jpg">
+                <div class="layer">
+                </div>
+                <h3>Horizon - Forbidden west (2022)</h3>
+            </div>  
+        </div>
+
+	<div class="album-col">
+            <div>
+                <img src="images/Favourites/12.jpg">
+                <div class="layer">
+                </div>
+                <h3>Resident Evil Series</h3>
+            </div>  
+        </div>
+
+	<div class="album-col">
+            <div>
+                <img src="images/Favourites/13.jpg">
+                <div class="layer">
+                </div>
+                <h3>God Of War - Ragnarok (2022)</h3>
+            </div>  
+        </div>
+
+
+
+    </div>
+        
+
+        
+    
+</section>
+
+<!----------------------->
+
+
+    
+
+<!---------javaScript for Toggle Menu-------------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
+</body>
+</html>
